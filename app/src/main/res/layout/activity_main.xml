@@ -45,9 +45,9 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:rowCount="5"
         android:columnCount="4"
-        >
+        android:fadingEdge="none"
+        android:rowCount="5">
 
         <Button
             android:id="@+id/btnAC"
@@ -56,7 +56,7 @@
             android:layout_row="0"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/AC"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="30sp" />
@@ -68,7 +68,7 @@
             android:layout_row="0"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/delete"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -80,7 +80,7 @@
             android:layout_row="0"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/division"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -92,7 +92,7 @@
             android:layout_row="0"
             android:layout_column="3"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/multiplication"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -104,7 +104,7 @@
             android:layout_row="1"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/seven"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -116,7 +116,7 @@
             android:layout_row="1"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/eight"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -128,7 +128,7 @@
             android:layout_row="1"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/nine"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -140,7 +140,7 @@
             android:layout_row="1"
             android:layout_column="3"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/minus"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -152,7 +152,7 @@
             android:layout_row="2"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/four"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -164,7 +164,7 @@
             android:layout_row="2"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/five"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -176,7 +176,7 @@
             android:layout_row="2"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/six"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -188,7 +188,7 @@
             android:layout_row="2"
             android:layout_column="3"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/plus"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -200,7 +200,7 @@
             android:layout_row="3"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/one"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -212,7 +212,7 @@
             android:layout_row="3"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/two"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -224,7 +224,7 @@
             android:layout_row="3"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/three"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -238,7 +238,7 @@
             android:layout_column="3"
 
             android:layout_columnWeight="1"
-            android:background="#65C4EF"
+            android:backgroundTint="@android:color/holo_orange_dark"
             android:text="@string/equals"
             android:textColor="@color/white"
             android:textSize="30sp" />
@@ -250,7 +250,7 @@
             android:layout_row="4"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/dot"
             android:textColor="@color/black"
             android:textSize="30sp" />
@@ -263,7 +263,7 @@
             android:layout_column="1"
             android:layout_columnSpan="2"
             android:layout_columnWeight="1"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:text="@string/zero"
             android:textColor="@color/black"
             android:textSize="30sp" />
